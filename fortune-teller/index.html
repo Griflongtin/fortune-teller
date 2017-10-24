@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class=display-1>Pick a card. Any card. Mutiple cards.</h1>
+      <form>
+        <div class="form-group">
+          <input type="checkbox" name="pick-a-card" value="-1">You never get lemons<br>
+          <input type="checkbox" name="pick-a-card" value="-1">Bad keyboard<br>
+          <input type="checkbox" name="pick-a-card" value="-10">Eternal life<br>
+          <input type="checkbox" name="pick-a-card" value="-1">Fountain of youth<br>
+          <input type="checkbox" name="pick-a-card" value="2">The slice of the pie<br>
+          <input type="checkbox" name="pick-a-card" value="2">jQuery knows you<br>
+          <input type="checkbox" name="pick-a-card" value="2">Do as to others<br>
+          <input type="checkbox" name="pick-a-card" value="2">If told a completion time add two hours<br>
+        </div>
+        <button class="btn btn-outline-dark btn-lg btn-block" type="submit">Your Fortune Is ...</button>
+      </form>
+      <div id="output-good">
+
+      </div>
+      <div id="output-bad">
+
+      </div>
+    </div>
+  </body>
+</html>
